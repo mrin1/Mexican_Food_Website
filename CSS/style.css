@@ -1,0 +1,744 @@
+/* ==================================== Common style ============================================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 18px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+section, .row{
+  display: flex;
+  justify-content: center;
+}
+ul li{
+    list-style: none;
+} 
+a{
+    text-decoration: none;
+} 
+.com-gap{
+    padding: 15px 0;
+}
+.head{
+    flex-direction: column;
+}
+/* ==================================================== header =================================== */
+/* ===================================================== navbar ================================== */
+.header-section{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    padding: 34px 0;
+    background: #4a1831;
+}
+.nav-links li{
+    padding: 0 30px;
+}
+.nav-links li a{
+    font-size: 25px;
+    color: #ffd7ad;
+    text-transform: uppercase;
+}
+.nav-links{
+    display: flex;
+}
+/* ======================================================= banner ================================ */
+.banner-section{
+    /* min-height: 796px;
+    height: 100%; */
+    background: url(../images/banner\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 48px 0px;
+}
+.banner-section-child h1{
+    font-size: 104px;
+    color: #ffd7ad;
+    padding-bottom: 82px;
+}
+.banner-section-child p{
+    width: 60%;
+    font-size: 29px;
+    color: #ffd7ad;
+    padding-bottom: 39px;
+}
+.btn{
+    display: inline-block;
+    padding: 26px 90px;
+    background: #ffd7ad;
+    color: #4a1831;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ====================================== menu ================================================ */
+.menu-section{
+    /* min-height: 796px;
+    height: 100%; */
+    background-color: #ffd7ad;
+    padding: 102px 0;
+}
+.menu-section .container .row{
+   align-items: center;
+}
+.menu-section .container .row h2{
+    font-size: 63px;
+    color: #4a1831;
+    padding-bottom: 20px;
+}
+.menu-section .container .row p{
+    width: 60%;
+    font-size: 25px;
+    color: #4a1831;
+    padding-bottom: 67px;
+    text-align: center;
+}
+.menu-btn{
+    display: inline-block;
+    padding: 24px 100px;
+    background: #4a1831;
+    color: #ffd7ad;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.menu-section .container .row img{
+    width: 100%;
+    padding-top: 88px;
+}
+
+/* ========================================== about ============================================= */
+.about-section{
+    /* min-height: 800px;
+    height: 100%; */
+    background: #ffd7ad;
+    padding: 125px 0;
+}
+.about-section-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-about-section img{
+    width: 100%;
+}
+.right-about-section h3{
+    font-size: 70px;
+    color: #4a1831;
+    padding-bottom: 20px;
+}
+.right-about-section p{
+    font-size: 29px;
+    color: #4a1831;
+    padding-bottom: 39px;
+}
+.more-btn{
+    display: inline-block;
+    padding: 24px 74px;
+    background: #4a1831;
+    color: #ffd7ad;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* ============================================ discount ======================================== */
+.discount-section{
+    /* min-height: 800px;
+    height: 100%; */
+    background: #ffd7ad;
+    padding: 50px 0;
+}
+.discount-section-child h3{
+    font-size: 167px;
+    color: #e63956;
+}
+.discount-section-child p{
+    font-size: 64px;
+    font-weight: bold;
+    color: #55112e;
+}
+.discount-section-child h4{
+    font-size: 104px;
+    color: #6cc5ac;
+    position: absolute;
+}
+.discount-section-child img{
+    width: 100%;
+}
+
+/* ============================================== offers ======================================= */
+.offers-section{
+    /* min-height: 800px;
+    height: 100%; */
+    background: #4a1831;
+    padding: 253px 0;
+}
+.offers-section-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-offers-section h3{
+   font-size: 75px;
+   color: #ffd7ad;
+   padding-bottom: 66px;
+}
+.left-offers-section p{
+    width: 80%;
+    font-size: 29px;
+    color: #e3bc99;
+    padding-bottom: 54px;
+}
+.right-offers-section img{
+    width: 100%;
+}
+.offers-btn{
+    display: inline-block;
+    padding: 24px 93px;
+    background: #ffd7ad;
+    color: #4a1831;
+    font-size: 25px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+/* =============================================== review ===================================== */
+.review-section{
+    /* min-height: 796px;
+    height: 100%; */
+    background: url(../images/review.png), rgba(0, 0, 0, 0.2);
+    padding: 106px 0;
+}
+.review-section .container .row{
+    align-items: center;
+}
+.review-section .container .row p{
+    width: 80%;
+   font-size: 41px;
+   color: #ffd7ad;
+   text-align: center;
+   padding-bottom: 20px;
+}
+.review-section .container .row h4{
+   font-size: 44px;
+   color: #ba9477;
+}
+/* ================================================ subscribe =================================== */
+.subscribe-section{
+    /* min-height: 796px;
+    height: 100%; */
+    background: #ffd7ad;
+    padding: 220px 0;
+}
+.subscribe-section .container .row{
+    align-items: center;
+}
+.subscribe-section .container .row h3{
+    font-size: 75px;
+    color: #4a1831;
+    padding-bottom: 40px;
+
+}
+.subscribe-section .container .row p{
+    width: 72%;
+    font-size: 29px;
+    color: #4a1831;
+    text-align: center;
+    padding-bottom: 115px;
+}
+.subscribe-section .container .row .search-area{
+    position: relative;
+    width: 60%;
+}
+.subscribe-section .container .row .search-area input{
+    width: 100%;
+    padding: 28px 0;
+    border-radius: 33px;
+    border: none;
+}
+.subscribe-section .container .row input::placeholder{
+    padding: 0 38px;
+    text-transform: capitalize;
+}
+.subscribe-btn{
+    display: inline-block;
+    padding: 24px 48px;
+    background-color: #4a1831;
+    color: #e3bc99;
+    border-radius: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 10px;
+
+}
+
+/* =============================================== footer ====================================== */
+.footer-section{
+    padding: 150px 0;
+    background-color: #55112e;
+    color: #ffd8ac;
+}
+.footer-section-child{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-para p{
+    font-size: 30px;
+}
+.footer-para,.para p{
+    padding: 20px 0;
+}
+.para{
+    width: 32%;
+}
+/* .footer-section{
+    background-color: #55112e;
+    color: white;
+} */
+.links a i{
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right:10px;
+    color: #4a1831;
+    font-size: 26px;
+}
+.terms,.three,.four, ul li{
+    padding: 10px 0;
+}
+.links a i:hover{
+    background-color:#e3bc99;
+    color: #4a1831;
+    transition: .3s ease;
+}
+.three ul li a{
+    color: #ffd8ac;
+    display: inline-block;
+}
+.four ul li a{
+    color: #ffd8ac;
+    display: inline-block;
+}
+.terms ul li a{
+    color: #ffd8ac;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* ======================================== media quary ========================================== */
+/* ======================================== media quary ========================================== */
+/* ======================================== media quary ========================================== */
+/* ======================================== media quary ========================================== */
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    /* ================ navbar ============= */
+    .nav-links{
+        flex-direction: column;
+        text-align: center;
+        background: #55112e;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 85px;
+   }
+   .nav-links li{
+       padding: 15px 0;
+   } 
+    /* ================= banner =============== */
+    .banner-section{
+        padding: 30px 0;
+    }
+    .banner-section-child{
+        text-align: center;
+    }
+    .banner-section-child img{
+        width: 70%;
+    }
+    .banner-section-child h1{
+       font-size: 50px;
+    }
+    .banner-section-child p{
+        font-size: 18px;
+         width: 100%;
+    }
+    .btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* ================ menu =================== */
+    .menu-section{
+        padding: 30px 0;
+    }
+    .menu-section .container .row h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .menu-section .container .row p{
+        font-size: 18px;
+          width: 100%;
+    }
+    .menu-btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* ================= about ================= */
+    .about-section{
+        padding: 30px 0;
+    }
+     .about-section-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-about-section img{
+        width: 70%;
+    }
+    .right-about-section h3{
+        font-size: 35px;
+    }
+    .right-about-section p{
+        font-size: 18px;
+    }
+    .more-btn{
+        padding: 12px 34px;
+    }
+     /* ================= discount =============== */
+     .discount-section-child{
+        text-align: center;
+    }
+    .discount-section-child h4{
+        font-size: 50px;
+    }
+    .discount-section-child p{
+        font-size: 20px;
+
+    }
+    .discount-section-child h3{
+        font-size: 50px;
+        text-align: center;
+    }
+     /* ================== offers ================ */
+     .offers-section{
+        padding: 30px 0;
+     }
+     .offers-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    .offers-section-child img{
+        width: 70%;
+    }
+    .offers-section-child h3{
+        font-size: 30px;
+    }
+    .offers-section-child p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .offers-btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* =================== review ================ */
+    .review-section{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .review-section .container .row img{
+        width: 70%;
+    }
+    .review-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .review-section .container .row h4{
+          font-size: 30px;
+    }
+    /* =================== subscribe ============= */
+    .subscribe-section .container .row h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .subscribe-section{
+        padding: 40px 0;
+    }
+    .subscribe-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+   .subscribe-section .container .row .search-area{
+      width: 100%;
+   }
+   .subscribe-btn{
+     padding: 12px 24px;
+     top: 15px;
+     font-size: 18px;
+   }
+   /* =================== footer ================ */
+    .footer-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    .footer-section{
+        padding: 30px 0;
+    }
+    .para{
+        width: 100%;
+    }
+        
+   
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* ================ navbar ================ */
+    .nav-links{
+         flex-direction: column;
+         text-align: center;
+         background: #55112e;
+         position: absolute;
+         left: 0;
+         width: 100%;
+         top: 85px;
+    }
+    .nav-links li{
+        padding: 15px 0;
+    }
+    /* ================= banner =============== */
+    .banner-section{
+        padding: 30px 0;
+    }
+    .banner-section-child{
+        text-align: center;
+    }
+    .banner-section-child img{
+        width: 70%;
+    }
+    .banner-section-child h1{
+       font-size: 50px;
+    }
+    .banner-section-child p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* ================ menu =================== */
+    .menu-section{
+        padding: 30px 0;
+    }
+    .menu-section .container .row h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .menu-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .menu-btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* ================= about ================= */
+    .about-section{
+        padding: 30px 0;
+    }
+     .about-section-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-about-section img{
+        width: 70%;
+    }
+    .right-about-section h3{
+        font-size: 35px;
+    }
+    .right-about-section p{
+        font-size: 18px;
+    }
+    .more-btn{
+        padding: 12px 34px;
+    }
+     /* ================= discount =============== */
+     .discount-section-child{
+        text-align: center;
+    } 
+    .discount-section-child h4{
+        font-size: 50px;
+    }
+    .discount-section-child p{
+        font-size: 20px;
+    }
+    .discount-section-child h3{
+        font-size: 50px;
+        text-align: center;
+    }
+     /* ================== offers ================ */
+     .offers-section{
+        padding: 30px 0;
+     }
+     .offers-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    .offers-section-child img{
+        width: 70%;
+    }
+    .offers-section-child h3{
+        font-size: 30px;
+    }
+    .offers-section-child p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .offers-btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    /* =================== review ================ */
+    .review-section{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .review-section .container .row img{
+        width: 70%;
+    }
+    .review-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .review-section .container .row h4{
+          font-size: 30px;
+
+    }
+    /* =================== subscribe ============= */
+       .subscribe-section .container .row h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .subscribe-section{
+        padding: 40px 0;
+    }
+    .subscribe-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .subscribe-section .container .row .search-area{
+        width: 100%;
+    }
+    .subscribe-btn{
+        padding: 12px 24px;
+        font-size: 18px;
+        top: 15px;
+    }
+     /* =================== footer ================ */
+     .footer-section-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section{
+        padding: 30px 0;
+    }
+    .para{
+        width: 100%;
+    }
+}
+/* mediam device */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* ================= banner =============== */
+    .banner-section-child{
+        text-align: center;
+    }
+    .banner-section-child p{
+        width: 100%;
+        text-align: center;
+    }
+    /* ================= about ================= */
+     .about-section-child{
+        flex-direction: column;
+        text-align: center;
+    }
+     /* ================= discount =============== */
+     /* .discount-section-child{
+        text-align: center;
+    } */
+     /* ================== offers ================ */
+     .offers-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    .offers-section-child p{
+        width: 100%;
+    }
+    /* =================== subscribe ============= */
+    .subscribe-section .container .row h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    .subscribe-section{
+        padding: 40px 0;
+    }
+    .subscribe-section .container .row p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    /* =================== footer ================ */
+    .footer-section-child{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section{
+        padding: 30px 0;
+    }
+    .para{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* ================= banner =============== */
+    .banner-section-child{
+        text-align: center;
+    }
+    .banner-section-child p{
+        width: 100%;
+        text-align: center;
+    }
+    /* ================= about ================= */
+    .about-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    /* ================= discount =============== */
+    /* .discount-section-child{
+        text-align: center;
+    } */
+    /* ================== offers ================ */
+     .offers-section-child{
+        flex-direction: column;
+        text-align: center;
+    } 
+    .offers-section-child p{
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+}
